@@ -45,7 +45,7 @@ namespace Zenject
 
         [Tooltip("Optional kernel")]
         [SerializeField]
-        MonoKernel _kernel
+        MonoKernel _kernel;
 
         DiContainer _container;
 

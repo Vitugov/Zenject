@@ -21,7 +21,7 @@ namespace Zenject
             _contractNameProperty = serializedObject.FindProperty("_contractNames");
             _parentNamesProperty = serializedObject.FindProperty("_parentContractNames");
             _parentNewObjectsUnderSceneContextProperty = serializedObject.FindProperty("_parentNewObjectsUnderSceneContext");
-            _kernel = serializedObject.FindProperty("_kernel")
+            _kernel = serializedObject.FindProperty("_kernel");
         }
 
         protected override void OnGui()
